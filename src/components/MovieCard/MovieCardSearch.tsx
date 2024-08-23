@@ -17,11 +17,12 @@ const MovieCardSearch = ({ id, image, title, year }: MovieCardSearchProps) => (
       _hover={{
         color: "teal.500",
       }}
+      height="100%"
     >
       <CardBody alignItems="center">
         {/* Normaly I would transform the response so I don't need to check for 'N/A' here */}
         {!isNil(image) && image !== "N/A" && (
-          <Image src={image} alt={title} width={100} height={100} />
+          <Image src={image} alt={title} width={140} height={100} />
         )}
         <Stack mt="6" spacing="1">
           <Heading size="xs">{title}</Heading>
