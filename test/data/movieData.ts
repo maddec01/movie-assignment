@@ -1,4 +1,4 @@
-import { MovieResult, MovieSearch, MovieSearchItem } from "@/src/domain/movies";
+import { MovieResult, MovieSearch } from "@/src/domain/movies";
 
 const movieSearch = {
   Search: [

@@ -1,4 +1,4 @@
-import { Card, CardBody, Heading, HStack, Text } from "@chakra-ui/react";
+import { Card, CardBody, Heading, HStack } from "@chakra-ui/react";
 import Image from "next/image";
 import { isNil } from "lodash";
 import MovieCardRatings from "@/src/components/MovieCard/Ratings/MovieCardRatings";
